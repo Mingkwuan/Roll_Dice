@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+.dice-container {
+    display: flex;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.dice {
+    width: 100px;
+    height: 80px;
+    background-size: cover;
+    margin: 0 10px;
+}
+
+#dice1 {
+    background-image: url('./img/1.png');
+}
+
+#dice2 {
+    background-image: url('./img/1.png');
+}
+
+#dice3 {
+    background-image: url('./img/1.png');
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
